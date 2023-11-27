@@ -1,0 +1,38 @@
+.searchBox {
+    width: 70%;
+    margin: 50px auto 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchBox i {
+    font-size: 23px;
+    margin-right: 15px;
+    color: var(--purple);
+}
+
+.search {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--grey);
+    color: var(--light);
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--head-light);
+}
+  
+:-ms-input-placeholder { /* Internet Explorer */
+    color: var(--head-light);
+}
+  
+::placeholder {
+    color: var(--head-light);
+}
